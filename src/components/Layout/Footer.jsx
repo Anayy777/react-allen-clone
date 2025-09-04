@@ -1,7 +1,14 @@
 import React from "react";
-import { About , Contact ,Help } from "../Pages";
-const Footer = () => {
+import { Link } from "react-router-dom";
 
+const Footer = () => {
+    return (
+        <div>
+            <Link to={"/about"}>About</Link>
+        <Link to={"/help"}>Help</Link>
+        <Link to={"/contact"}>Contact</Link>
+        </div>
+    )
 }
 
 export default Footer;
