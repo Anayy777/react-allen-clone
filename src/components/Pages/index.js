@@ -1,0 +1,6 @@
+export {default as About} from './About'
+export {default as Contact} from './Contact'
+export {default as Help} from './Help'
+export {default as Index} from './Index'
+export {default as Courses} from './Courses'
+export {default as Results} from './Results'
