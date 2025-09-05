@@ -1,0 +1,52 @@
+.footer{
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #eee;   
+}
+
+.footer h4{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Poppins' , sans-serif;
+    color: black;
+    font-weight: 10;
+    text-decoration: none;
+}
+
+.footer a{
+    
+    text-decoration: none;
+    color:black;
+    padding-bottom: 1px;
+}
+
+.list-1 , .list-2 , .list-3 , .list-4{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Lora' , serif;
+    
+
+
+}
+
+.course-h1{
+    font-family: 'Lora' , sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    margin-left: 150px;
+}
+
+.course-element-1{
+    padding: 10px 80px;
+    border-radius: 2px;
+    background-color: rgb(38, 38, 225);
+}
+
+.para-1 , .para-2{
+    display: block;
+}

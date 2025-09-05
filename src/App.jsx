@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return (
-    <div style={{padding : "20px"}}>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element = {<Layout/>} >
