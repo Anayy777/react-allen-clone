@@ -45,6 +45,16 @@ const Courses = () => {
               />
             })}
         </div>
+        <div className="component-2">
+          <div className="course-h2">
+            Trending Courses
+          </div>
+          <div className="course-button">
+            <button className="button-1">NEET</button>
+            <button className="button-2">JEE</button>
+            <button className="button-3">Class 6-10</button>
+          </div>
+        </div>
           
       </div>
    

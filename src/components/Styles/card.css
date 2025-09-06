@@ -1,7 +1,7 @@
 .card-component{
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    gap: 30px;
     padding-bottom: 50px;
     align-items: center;
 }
@@ -11,11 +11,33 @@
     font-size: 25px;
     font-weight: 20;
     font-family: 'Poppins' , sans-serif;
-    margin-top: 10px;
 }
 
 .link{
+    font-family: 'Poppins' , sans-serif;
     color: #025fca;
     text-decoration: none;
 }
 
+.course-card{
+    padding: 20px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 250px; /* Example fixed width */
+    height: 150px; /* Example fixed height */
+    
+    /* --- Add this line --- */
+    position: relative; 
+    
+    overflow: hidden; /* This is helpful to hide parts of the image that go outside the card's rounded corners */
+}
+
+/* --- Update this section --- */
+.course-card img{
+    position: absolute;
+    right: 0;
+    width: 150px;  
+    height: auto;
+}

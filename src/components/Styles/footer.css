@@ -38,7 +38,7 @@
     font-family: 'Poppins' , sans-serif;
     font-weight: 700;
     font-size: x-large;
-    margin-left: 130px;
+    margin-left: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -63,4 +63,32 @@
 
 .para-2{
     color: white;
+}
+
+.component-2{
+    box-sizing: border-box;
+    border: 0px solid #eee;
+    background-color: #f8f9fa;
+    padding: 16px;
+}
+
+.course-h2{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 700;
+    margin-left: 70px;
+    font-size: x-large;
+}
+
+.course-button{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.button-1 , .button-2 , .button-3{
+    margin-right: 10px;
+    padding: 5px 5px;
+    border: 0.1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins' , sans-serif;
 }
